@@ -82,7 +82,7 @@ client.on('message', message => {
   if (message.content.toLowerCase().startsWith(prefix)) {
      const args = message.content.toLowerCase().substr(prefix.length).split(' ')
      const cmd = args.shift()
-	   //console.log(cmd)
+	   console.log(cmd)
      // Checken ob der Command existiert
      if (Commands[cmd]) {
         Commands[cmd](args, client, message, {
