@@ -40,8 +40,8 @@ module.exports = async (args, client, message) => {
     //Text WIP
     ctx.text2('Temporary Disabled', 280, canvasstats.width / 2, canvasstats.height / 2, '#ffffff', 'center')
 
-/*  
-    /no arg for GET
+  
+    //no arg for GET
     if (!args.length) {
     return message.channel.send("You need to supply a valid name and tag");
     }
@@ -65,7 +65,7 @@ module.exports = async (args, client, message) => {
     if(raw.data.nickname = 'undefined') {
       message.channel.send("Error, this User is not available or typed something wrong. Try again later or correct your mistake. ")
     }
-    // const [answer] = raw
+     const [answer] = raw
     
     ctx.text2('STATS: ' + raw.data.nickname.catch(err => message.channel.send('test')) + "#" + raw.data.tag, 150, canvasstats.width / 2, 200, '#ffffff', 'center')
     
@@ -93,7 +93,7 @@ module.exports = async (args, client, message) => {
   
     ctx.text2('Avg. Damage per Match:', 100, 140, 1450)
     ctx.text(damagepermatch.toFixed(0), 110, 1575, 1450)
-  */
+  
   
     ctx.text('Note: Valorant is still in Beta so stats might be missing or inaccurate.', 90, canvasstats.width / 2, 2050, '#ffffff', 'center')
     
