@@ -57,7 +57,7 @@ module.exports = async (args, client, message, { Canvas, Discord }) => {
       const mapimage = await Canvas.loadImage(map.mapurl); //load map from url
       ctx.drawImage(mapimage, 1100, 350, 1500, 1500); // displays map
       ctx.text('Source: https://blitz.gg/valorant/maps', 60, 50, 2100)
-    } /*else {
+    } else {
           ctx.text2('Map Overview', 180, canvasstats.width / 2, 200, '#ffffff', 'center')
       ctx.text2('Bind:', 150, 640, 500, '#ffffff', 'center')
       ctx.text2('Split:', 150, 1920, 500, '#ffffff', 'center')
@@ -85,7 +85,7 @@ module.exports = async (args, client, message, { Canvas, Discord }) => {
       ctx.strokeStyle = "#ffffff";
       ctx.lineWidth = 5;
       ctx.stroke()
-    } */
+    } 
 
 
     //Text DC Tag/ID:
