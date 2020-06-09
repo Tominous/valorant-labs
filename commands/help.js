@@ -59,14 +59,14 @@ module.exports = async (args, client, message, { Canvas, Discord }) => {
     //Text Autonews:
     ctx.text('- ' + prefix + 'help2 - Shows the next help page', 110, 140 , 2050, '#3f888f')
   
-   /* const exampleEmbed = new Discord.RichEmbed()
+    const exampleEmbed = new Discord.RichEmbed()
 	  .setColor('#ee3054')
 	  .setTitle('Vote f\u00fcr den Bot auf top.gg')
 	  .setURL('https://top.gg/bot/702201518329430117')
   	  .setImage('https://cdn.glitch.com/6f24e132-ed6a-4704-a40d-19f2a8f508ca%2Fvalorant-stats%20(4).png?v=1590437291860')
 	  .setTimestamp()
 	  .setFooter('Timestamp:');
-  */
+  
       //Text DC Tag/ID:
       ctx.text2(message.member.user.tag, 80, 245, 150)
   
