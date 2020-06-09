@@ -25,11 +25,11 @@ module.exports = async (args, client, message, { Canvas, Discord }) => {
     ctx.fillText(content, x, y)
     }
   
-/*    ctx.text2('Patch 0.49', 180, canvasstats.width / 2, 200, '#ffffff', 'center')
+    ctx.text2('Patch 0.49', 180, canvasstats.width / 2, 200, '#ffffff', 'center')
     ctx.text('Released: 29.04.2020', 80, 3000, 150)
   
     //Text Important Changes:
-    //ctx.text('Important Changes:', 140, 140, 450, '#3f888f')
+    ctx.text('Important Changes:', 140, 140, 450, '#3f888f')
   
     //Changes 
     ctx.text2('- MAP: ', 100, 100, 450)
@@ -80,7 +80,7 @@ module.exports = async (args, client, message, { Canvas, Discord }) => {
   
     const attachment = new Discord.Attachment(canvasstats.toBuffer(),"valorant-patch.png" ); //final result
     message.channel.send(attachment); //send final result
-    */
+    
   
   const Embed = new Discord.RichEmbed()
 	  .setColor('#ee3054')
